@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
+        <module name="gateway" />
         <module name="servicefeign" />
-        <module name="servicezuul" />
         <module name="springcloud" />
       </profile>
     </annotationProcessing>
@@ -17,6 +17,7 @@
       <module name="demo" target="1.8" />
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="sericefeign" target="1.8" />
       <module name="servicefeign" target="1.8" />
       <module name="servicezuul" target="1.8" />
