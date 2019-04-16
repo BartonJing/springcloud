@@ -10,3 +10,8 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+api:
+  name: test
+  url: https://tcc.taobao.com
+  value: /cc/json/mobile_tel_segment.htm

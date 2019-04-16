@@ -17,6 +17,7 @@ public class TestController {
 
     @RequestMapping(value = "/hi",method = RequestMethod.GET)
     public String sayHi(@RequestParam String name){
+        System.out.println(environment.getProperty("test.aa"));
         return "hi "+name+",i am from port:" + environment.getProperty("server.port");
     }
 
